@@ -1,0 +1,36 @@
+body
+{
+margin: 0;
+padding: 0;
+border: 0;
+}
+.topcontainer{
+    
+    background-color: #FBF4E9;    
+    padding-left: 5%;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 0;
+    border: 0;
+}
+
+.full-name-p{
+    margin:0;
+}
+.full-name{
+    font-family: "Open Sans";
+    font-size: 2em;
+    margin-top: 0;
+    padding-top: 0;
+    border: 0;
+    
+}
+.name{
+    font-family: "Open Sans";
+    font-feature-settings: "kern";
+    font-stretch: 100%;
+    font-size: 6em;
+}
+.tea{
+    width:80px;
+}
