@@ -1,36 +1,113 @@
 body
 {
+background-color:#FEFBF3;
 margin: 0;
 padding: 0;
 border: 0;
 }
-.topcontainer{
-    
-    background-color: #FBF4E9;    
-    padding-left: 5%;
+.topcontainer{        
+    padding-left: 15%;
+    padding-right: 15%;
     padding-top: 0;
     margin: 0;
     margin-top: 0;
     border: 0;
 }
-
+.wave-image{
+    font-size:0.8em;
+}
 .full-name-p{
     margin:0;
 }
 .full-name{
-    font-family: "Open Sans";
-    font-size: 2em;
+    font-family: "Cabin";
+    font-size: 1.8em;
     margin-top: 0;
-    padding-top: 0;
+    padding-top: 30px;
     border: 0;
+    font-weight: 500;
     
 }
+
 .name{
-    font-family: "Open Sans";
+    font-family: "Cabin";
     font-feature-settings: "kern";
     font-stretch: 100%;
-    font-size: 6em;
+    font-size: 5em;
+    font-weight: 100;
+    padding:10% 0 0 0;
+    margin-bottom: 0;
 }
+.college{
+    font-family:"Cabin";
+    font-feature-settings: "kern";
+    font-stretch: 100%;
+    font-size: 2em;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0;
+    
+
+}
+.poweredby{
+    font-family:"Cabin";
+    font-stretch: 100%;
+    font-size: 1.2em;
+    font-weight: 80;
+    margin-top: 10px;
+    display:inline-block;
+    
+
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border:0;
+    padding:0;
+    margin:0;
+  }
+  
+  .tooltip .tooltiptext {
+    opacity: 0;
+    transition: opacity 0.8s;
+    width: 120px;
+    background-color:#F8F0DF ;
+    color: black;
+    text-align: center;
+    border-radius: 6px;
+    padding:5px;
+    font-family: "Cabin";
+  
+    /* Position the tooltip */
+    position: absolute;
+    margin-top:20px;
+    margin-left:10px;
+    z-index: 10;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    right: 100%; /* To the left of the tooltip */
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #F8F0DF transparent transparent;
+  }
+
 .tea{
-    width:80px;
+    width:1.8em;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    top:3px;
+    padding:0;
 }
