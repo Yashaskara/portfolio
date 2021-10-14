@@ -23,10 +23,36 @@ border: 0;
     font-family: "Cabin";
     font-size: 1.8em;
     margin-top: 0;
+    margin-bottom: 0;
     padding-top: 30px;
+    padding-bottom: 30px;
+
     border: 0;
     font-weight: 500;
+    display: inline-block;
     
+}
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+.navbar{
+    display: inline-block;
+    position: relative;
+    left:47.8%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0 ;
+    margin-bottom: 0;
+    font-family: "Cabin";
+    font-size: 1.2em;
+    color: black;
+    margin-top: 0;
+    border: 0;
+    font-weight: 500;
+    display: inline-block;
 }
 
 .name{
@@ -53,7 +79,7 @@ border: 0;
     font-family:"Cabin";
     font-stretch: 100%;
     font-size: 1.2em;
-    font-weight: 80;
+    font-weight: 10;
     margin-top: 10px;
     display:inline-block;
     
