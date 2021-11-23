@@ -5,49 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Varela+Round&display=swap" rel="stylesheet">
-    <link rel="icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <title>Abhinandan Krishnan Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 
-<body>
-    <div class="header">
-        <a class="namelink" href="/index.html" style="margin-left: 0px;"><h2 class="full-name">Abhinandan Krishnan</h2></a>
-        <nav class="navbar">
-            <a href="/index.html">Home</a> 
-            <a href="/About.html">About</a> 
-            <a href="/Projects.html">Projects</a> 
-            <a href="/Experience.html">Experience</a>
-            <a href="/Contact.html">Contact</a>
-        </nav>
-    </div>
-    <div class="topcontainer">
-        <h1 class="name">Hey, I am Abhinandan
-        <span class="wave-image"> 
-            👋
-            </span>
-        </h1>  
-        <h2 class="college">An aspiring Robotics Engineer from Mysuru, India<span> <a style="text-decoration:none" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/TnJLXZpYE6UiMYHH9">📌</a></span></h2>
-        <div class="tooltip">
-            <h2 class="poweredby">Powered by </h2>
-            <img class="tea" src="images/tea-1.png">
-            <span class="tooltiptext">Tea. It's what winners drink.</span>
+<body class="bodyy">
+
+    <div class="home-div">
+        <div class="header">
+            <a class="namelink" href="index.html" style="margin-left: 0px; color:black">
+            <h2 class="full-name">Abhinandan Krishnan</h2></a>
+            <nav class="navbar">
+                <a href="index.html">Home</a> 
+                <a href="#about-div">About</a> 
+                <a href="/Projects.html">Projects</a> 
+                <a href="/Experience.html">Experience</a>
+                <a href="#contact">Contact</a>
+            </nav>
         </div>
-
-
+        <div class="topcontainer topcontainer-home">
+            <h1 class="name" style="padding-top: 0px;">Hey, I am Abhinandan
+            </h1>  
+            <h2 class="college">An aspiring Robotics Engineer from Mysuru, India<span> <a style="text-decoration:none" target="_blank" rel="noopener noreferrer" href="https://goo.gl/maps/TnJLXZpYE6UiMYHH9">📌</a></span></h2>
+            <div class="tooltip">
+                <h2 class="poweredby">Powered by </h2>
+                <img class="tea" src="images/tea-1.png">
+            <!--   <span class="tooltiptext">Tea. It's what winners drink.</span>-->
+            </div>
+        </div>
     </div>
 
+    <div id="about-div">
+        <div class="topcontainer">
+            <div class="about-content">
+                <img src="images/dp.jpg" class="dp">
+                <div class="intro" style="margin-top: 50px;">
+                    <h1>Hello, I'm Abhinandan!</h1>
+                    <p class="about">I'm an aspiring Roboticist, holding a bachelor's degree in Electronics and Communication. 
+                        Solving everyday life challenges and application of Robotics to provide solutions to many of those challenges
+                        is where my interest and area of exploration lies in.
+                        I excel when working in collaborative groups to solve engineering problems and always up for learning new skill and working on projects. <br><br>
+                        Outside of work, I love playing Cricket, Baking and Hiking.
+                    
+                    </p>
+                </div>
+        
+                <div class="interest-div">
+                    <h1 style="text-align: center;">Research Interests</h1>
+                    <div class="interest big">
+                        Control theory of Mobile robots
+                    </div>
+                    <div class="interest big">
+                        Swarm Robotics
+                    </div>
+                    <div class="interest big">
+                        Autonomous Systems
+                    </div>
+                    <div class="interest big">
+                        Computer vision
+                    </div>
+                    <div class="interest big">
+                        SLAM
+                    </div>
+        
+        
+                </div>
 
-    <footer class="contact">
+            </div>
+        </div>
+    </div>
+
+    <footer id="contact" >
         <div style="text-align: center; margin-bottom: 20px; margin:0 35% 0 35%">
             <a href="https://github.com/Abhinandan-Krishnan" style="text-decoration:none; margin:0;" target="_blank" rel="noopener noreferrer"><img src="images/github.png" style="width: 30px; padding:10px"></a>
             <a href="https://www.linkedin.com/in/abhinandan-krishnan-646656167" style="text-decoration:none; margin:0;" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" style="width: 30px; padding:10px"></a>
-            <a href="mailto:krishnanabhinandan@gmail.com" style="text-decoration:none; margin:0;"><img src="images/mail.png" style="width: 30px; padding: 10px;"></a>
+            <a href="mailto:krishnanabhinandan@gmail.com" style="text-decoration:none; margin:0;"><img src="images/email.png" style="width: 30px; padding: 10px;"></a>
             <h3 class="copyright">©️ Abhinandan Krishnan 2021</h3>
-                
         </div>
        
     </footer>
+    
+
 </body>
 </html>

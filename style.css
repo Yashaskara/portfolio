@@ -1,21 +1,87 @@
 
-body
+.bodyy
 {
-background-color:#FEFBF3;
 margin: 0;
 padding: 0;
 border: 0;
 
 }
+
+.about-body
+{
+  background-color:#FEFBF3;
+}
+
+h1{
+  font-family: "Cabin";
+  font-size: 1.8em;
+  margin:0;
+  border: 0;
+  padding:0;
+  font-weight: 100;
+  
+  
+}
+h2{
+  font-family: "Open Sans,sans-serif";
+  font-kerning: normal;
+  font-feature-settings: "kern","liga","clig","calt";
+  font-size: 1.4em;
+  margin:0;
+  border: 0;
+  padding:0;
+  padding-bottom: 5px;
+  font-weight:100;
+}
+
+.home-div{
+  height:100vh;
+  width:100%; 
+  background-image: url("images/bgc.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto ;
+}
+
+#about-div{
+  height:auto;
+  width:100%;
+  background-image: url("images/light-1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto ;
+  
+}
+
+
 .topcontainer{        
     padding-left: 15%;
     padding-right: 15%;
-    padding-top: 0;
+    padding-bottom: 150px;
     margin: 0;
-    margin-top: 0;
+    margin-top: 0%;
     border: 0;
     display: block;
     overflow: hidden;
+
+    
+}
+
+
+.topcontainer-home{
+  padding-top:150px;  
+}
+
+.about-content{
+  padding:100px 0% 0% 0%;
+  margin-top: 33px;
+  width: 50%;
+  background-color: #D9CAB3;
+  border-radius: 30px;
+  
+  
+}
+
+.education{
+  padding-top:100px;
 }
 .header{       
     padding-left: 15%;
@@ -39,24 +105,27 @@ border: 0;
     margin-bottom: 0;
     padding-top: 30px;
     padding-bottom: 30px;
-
     border: 0;
     font-weight: 500;
     display: inline-block;
+    visibility: hidden;
     
 }
 
 a:link {
-    color: black;
-    background-color: transparent;
-    text-decoration: none;
-    margin-left: 10px;
+  color: #F7F7F7;
+  background-color: transparent;
+  text-decoration: none;
+  margin-left: 10px;
   }
 
+a:hover{
+ color:#FAF1E6;
+}
+
 a:visited {
-    color:black;
-    background-color: transparent;
-    
+  color: #F7F7F7;
+  background-color: transparent;
   }
   
 .navbar{
@@ -69,21 +138,22 @@ a:visited {
     margin-bottom: 0;
     font-family: "Cabin";
     font-size: 1.2em;
-    color: black;
     margin-top: 0;
     border: 0;
     font-weight: 500;
     display: inline-block;
+    color: #F7F7F7;
 }
 
 .name{
     font-family: "Cabin";
     font-feature-settings: "kern";
     font-stretch: 100%;
-    font-size: 5em;
+    font-size: 50px;
     font-weight: 100;
     padding:10% 0 0 0;
     margin-bottom: 0;
+    color: #F7F7F7;
 }
 .college{
     font-family:"Cabin";
@@ -91,8 +161,8 @@ a:visited {
     font-stretch: 100%;
     font-size: 2em;
     font-weight: 500;
-    margin-top: 10px;
     margin-bottom: 0;
+    color: #F7F7F7;
     
 
 }
@@ -101,9 +171,11 @@ a:visited {
     font-stretch: 100%;
     font-size: 1.2em;
     font-weight: 10;
-    margin-top: 10px;
     display:inline-block;
-    
+    position: relative;
+    bottom:3px;
+    color: #F7F7F7;
+
 
 }
 
@@ -154,14 +226,12 @@ a:visited {
     width:1.8em;
     display: inline-block;
     position: relative;
-    margin-top: 10px;
-    top:3px;
     padding:0;
 }
 
-.contact{
+#contact{
   background-color:#F8F0DF;
-  margin:60px 0 0px 0;
+  margin:0 0 0px 0;
   width: 100%;
   padding:6% 0px;
   padding-bottom: 6%;
@@ -175,6 +245,58 @@ a:visited {
   color:#4C4C4C;
   margin-top: 0;
   margin-bottom: 0;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Bitter';
   font-size: 0.6em;
+}
+.dp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 100%;
+  
+}
+.about{
+  font-family: "Open Sans,sans-serif";
+  font-kerning: normal;
+  font-feature-settings: "kern","liga","clig","calt";
+  font-size: 1.4em;
+  margin:0;
+  border: 0;
+  padding-top:40px;
+  padding-bottom: 5px;
+  font-weight:100;
+  font-stretch:ultra-expanded;
+  
+}
+
+.interest-div{
+  padding-top:100px;
+  text-align: center;
+}
+
+.interest{
+  padding:10px;
+  background: #FFC069;
+  width: 25%;
+  display: inline-block;
+  margin:30px;
+  border-radius: 15px 50px 30px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  height: fit-content;
+  font-family: "Open Sans,sans-serif";
+  font-kerning: normal;
+  font-feature-settings: "kern","liga","clig","calt";
+  font-weight:200;
+  font-size: 1.2em;
+}
+
+.big
+{
+  font-size: 1.3em;
+}
+.intro
+{
+  padding-left: 5%;
+  padding-right: 5%;
 }
