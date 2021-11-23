@@ -13,8 +13,7 @@ border: 0;
 }
 
 h1{
-  font-family: "Cabin";
-  font-size: 1.8em;
+  font-family: "Cabin";  
   margin:0;
   border: 0;
   padding:0;
@@ -26,7 +25,6 @@ h2{
   font-family: "Open Sans,sans-serif";
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
-  font-size: 1.4em;
   margin:0;
   border: 0;
   padding:0;
