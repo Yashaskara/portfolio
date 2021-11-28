@@ -36,6 +36,7 @@ h2{
   height:100vh;
   width:100%; 
   background-image: url("images/iic.jpg");
+  opacity:0.7;
   background-repeat: no-repeat;
   background-size: 100% auto ;
 }
@@ -59,13 +60,14 @@ h2{
     border: 0;
     display: block;
     overflow: hidden;
+    text-align: center;
 
     
 }
 
 
 .topcontainer-home{
-  padding-top:150px;  
+  padding-top:250px;  
 }
 
 .about-content{
@@ -150,32 +152,32 @@ a:visited {
     font-family: "Cabin";
     font-feature-settings: "kern";
     font-stretch: 100%;
-    font-size: 8vh;
-    font-weight: 100;
+    font-size: 9vh;
+    font-weight: 200;
     padding:10% 0 0 0;
     margin-bottom: 0;
-    color: #F7F7F7;
+    color: white;
 }
 .college{
     font-family:"Cabin";
     font-feature-settings: "kern";
     font-stretch: 100%;
-    font-size: 2.5vh;
+    font-size: 3vh;
     font-weight: 500;
     margin-bottom: 0;
-    color: #F7F7F7;
+    color: white;
     
 
 }
 .poweredby{
     font-family:"Cabin";
     font-stretch: 100%;
-    font-size: 1.2em;
+    font-size: 2.5vh;
     font-weight: 10;
     display:inline-block;
     position: relative;
     bottom:3px;
-    color: #F7F7F7;
+    color: white;
 
 
 }
