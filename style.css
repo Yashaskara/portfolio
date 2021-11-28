@@ -11,6 +11,14 @@ border: 0;
 {
   background-color:#FEFBF3;
 }
+.project-body {
+  background-color:#FEFBF3;
+  
+}
+
+.project-headless-body {
+padding: 0 15% 0 15%; 
+}
 
 h1{
   font-family: "Cabin";  
@@ -305,4 +313,37 @@ a:visited {
 {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.project-container {
+  /* Vary this based on requirement */
+  width: 500px;
+  height: 200px;
+   /* Vary this based on requirement */
+  padding: 30px;
+  border: 1px solid red;
+  margin: 20px;
+  background-image: url("images/bgc.jpg");
+  /* display: none; */
+}
+
+.project-container:hover + .project-without-hover {
+  display: block;
+}
+
+.project-without-hover {
+  /* display: None; */
+  background-image: None
+}
+
+.project-heading {
+
+}
+
+.project-display-flex {
+  display: flex;
+    align-items: center;
+    margin: 0 40px 0 40px;
+    
+    
 }
