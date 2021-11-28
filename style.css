@@ -10,15 +10,16 @@ border: 0;
 .about-body
 {
   background-color:#FEFBF3;
+  margin: 0;
 }
 .project-body {
   background-color:#FEFBF3;
+  margin: 0;
+  
   
 }
 
-.project-headless-body {
-padding: 0 15% 0 15%; 
-}
+
 
 h1{
   font-family: "Cabin";  
@@ -74,6 +75,7 @@ h2{
 .topcontainer-about {
   display: flex;
   justify-content: space-around;
+  padding-bottom: 45px;
 }
 
 .topcontainer-home{
@@ -243,10 +245,10 @@ a:visited {
 }
 
 #contact{
-  background-color:#F8F0DF;
+  background-color:#9a9795;
   margin:0 0 0px 0;
   width: 100%;
-  padding:3% 0px 0 0;
+  padding:3% 0 2% 0;
   font-size:2em;
   color:black;
   display:block;
@@ -284,7 +286,7 @@ a:visited {
 }
 
 .interest-div{
-  padding:10px 15% 0 15%;
+  padding:5px 15% 0 15%;
   text-align: center;
 
 }
@@ -315,6 +317,10 @@ a:visited {
   padding-right: 5%;
 }
 
+.project-headless-body
+{
+  padding:3% 15% 0 15%;
+}
 .project-container {
   /* Vary this based on requirement */
   width: 500px;
@@ -323,9 +329,13 @@ a:visited {
   padding: 30px;
   border: 1px solid red;
   margin: 20px;
-  background-image: url("images/bgc.jpg");
+  background-image: url("images/robot.jpg");
+  background-size: 100% auto ;
+
   /* display: none; */
 }
+
+
 
 .project-container:hover + .project-without-hover {
   display: block;
@@ -337,7 +347,8 @@ a:visited {
 }
 
 .project-heading {
-
+  text-align: center;
+  font-size: 6vh;
 }
 
 .project-display-flex {
