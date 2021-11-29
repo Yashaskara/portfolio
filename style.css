@@ -342,8 +342,7 @@ a:visited {
 }
 
 .project-without-hover {
-  /* display: None; */
-  background-image: None
+  display: None;
 }
 
 .project-heading {
@@ -355,6 +354,4 @@ a:visited {
   display: flex;
     align-items: center;
     margin: 0 40px 0 40px;
-    
-    
 }
