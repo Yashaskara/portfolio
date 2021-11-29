@@ -339,10 +339,11 @@ a:visited {
 
 .project-container:hover + .project-without-hover {
   display: block;
+  background-image: none;
 }
 
 .project-without-hover {
-  /* display: None; */
+  display: None; 
   background-image: None
 }
 
