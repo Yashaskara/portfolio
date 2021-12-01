@@ -15,10 +15,12 @@ border: 0;
 .project-body {
   background-color:#FEFBF3;
   margin: 0;
-  
-  
 }
 
+.project-body-experience {
+  background-color:#FFFFFF;
+  margin: 0;
+}
 
 
 h1{
