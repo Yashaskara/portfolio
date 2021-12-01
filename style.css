@@ -15,10 +15,12 @@ border: 0;
 .project-body {
   background-color:#FEFBF3;
   margin: 0;
-  
-  
 }
 
+.project-body-experience {
+  background-color:#FFFFFF;
+  margin: 0;
+}
 
 
 h1{
@@ -346,8 +348,6 @@ a:visited {
   width: 500px;
   height: 250px;
   transition: transform 1s ease, top 1s ease;
-
-
 }
 
 .project-heading {
@@ -357,19 +357,40 @@ a:visited {
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
   font-weight:200;
-
 }
 
 .project-display-flex {
     display: flex;
     align-items: center;
-    margin: 20px 155px 20px 155px;
-    justify-content: space-between;
-    
+    margin: 0 40px 0 40px;
 }
 
-.project-desc
-{
+.timeline-image {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #2c98f0;
+  border-radius: 50%;
   text-align: center;
-  margin-top: 10px;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  line-height: 40px;
+  float: left;
+}
+
+.experience-container {
+  position: relative;
+  width: 60%;
+  background: #f2f3f7;
+  padding: 1.5em;
+  margin: 0 0 10px 60px;
+  background-clip: padding-box;
+}
+
+.experience-body {
+  padding: 50px;
+}
+
+.experience-image-container {
+  display: flex;
+  padding: 0 50px;
 }
