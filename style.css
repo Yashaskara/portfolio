@@ -343,6 +343,9 @@ a:visited {
 
 .project-without-hover {
   display: None;
+  animation-fill-mode: both;
+  animation-duration: 10s;
+  background-color: blue;
 }
 
 .project-heading {
@@ -354,4 +357,34 @@ a:visited {
   display: flex;
     align-items: center;
     margin: 0 40px 0 40px;
+}
+
+.timeline-image {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background: #2c98f0;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 0 0 5px #f2f3f7;
+  line-height: 40px;
+  float: left;
+}
+
+.experience-container {
+  position: relative;
+  width: 60%;
+  background: #f2f3f7;
+  padding: 1.5em;
+  margin: 0 0 10px 60px;
+  background-clip: padding-box;
+}
+
+.experience-body {
+  padding: 50px;
+}
+
+.experience-image-container {
+  display: flex;
+  padding: 0 50px;
 }
