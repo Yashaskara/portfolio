@@ -360,9 +360,11 @@ a:visited {
 }
 
 .project-display-flex {
-    display: flex;
-    align-items: center;
-    margin: 0 40px 20px 40px;
+  display: flex;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  margin: 20px 155px 20px 155px;
+  justify-content: space-between;
 }
 
 .timeline-image {
