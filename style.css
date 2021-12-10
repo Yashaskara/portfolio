@@ -353,7 +353,7 @@ a:visited {
 .project-heading {
   text-align: center;
   font-size: 6vh;
-  font-family: "Open Sans,sans-serif";
+  font-family: "Cabin";
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
   font-weight:200;
@@ -395,4 +395,11 @@ a:visited {
 .experience-image-container {
   display: flex;
   padding: 0 50px;
+}
+
+.project-desc
+{
+  font-size: 2vh;
+  margin:auto 20px auto 20px;
+
 }
