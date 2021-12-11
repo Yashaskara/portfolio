@@ -398,7 +398,8 @@ a:visited {
 
 .project-desc
 {
-  font-size: 2vh;
+  
+  font-size: 120%;
   margin:auto 20px auto 20px;
 
 }
