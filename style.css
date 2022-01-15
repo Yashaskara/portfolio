@@ -503,7 +503,18 @@ a:visited {
 	 background: #fd5d93 !important;
 }
 
- 
+.exp{
+  font-family: "Open Sans,sans-serif";
+  font-kerning: normal;
+  font-feature-settings: "kern","liga","clig","calt";
+  font-size: 2.5vh;
+  margin:0;
+  border: 0;
+  padding-top:5px;
+  padding-bottom: 5px;
+  font-weight:100;
+  font-stretch:ultra-expanded;
+} 
 
 
 
