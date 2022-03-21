@@ -15,12 +15,14 @@
         function showProjectDesc(project) {
             var x = document.getElementById(project);
             x.style.display = "block";
+            x.style.transition=" all 0.5s ease";
             
         }
 
         function hideProjectDesc(project) {
             var x = document.getElementById(project);
             x.style.display = "none";
+            x.style.transition=" all 0.5s ease";
         }
     </script>
 </head>
@@ -42,7 +44,7 @@
 
     <div class="project-headless-body">
         <h1 class="project-heading"> My Projects </h1>
-
+        
         <div class="project-display-flex">
             <div class="project-container" onclick="window.open('https://www.youtube.com/watch?v=Mkj6soqQCgI&ab_channel=AbhinandanK')" style="margin:0 10px 0 0; background-image:url('images/omni.gif');" accessKey="project1" onmouseover="showProjectDesc(this.accessKey)" onmouseout="hideProjectDesc(this.accessKey) ">
                 <div class="project-without-hover" id="project1">
