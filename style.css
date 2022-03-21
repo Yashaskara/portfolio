@@ -9,16 +9,16 @@ border: 0;
 
 .about-body
 {
-  background-color:#FFFDDE;
+  background-color:#F5F2E7;
   margin: 0;
 }
 .project-body {
-  background-color:#FFFDDE;
+  background-color:#F5F2E7;
   margin: 0;
 }
 
 .project-body-experience {
-  background-color:#FFFDDE;
+  background-color:#F5F2E7;
   margin: 0;
 }
 
@@ -33,7 +33,7 @@ h1{
   
 }
 h2{
-  font-family: "Open Sans,sans-serif";
+  font-family: "Nunito", sans-serif;
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
   margin:0;
@@ -248,7 +248,7 @@ a:visited {
 }
 
 #contact{
-  background-color:#f4dfbae1;
+  background-color:#161c2d;
   margin:0 0 0px 0;
   width: 100%;
   padding:3% 0 2% 0;
@@ -259,26 +259,25 @@ a:visited {
   bottom:0;
 }
 .copyright{
-  color:#4C4C4C;
+  color:#fff;
   margin-top: 0;
   margin-bottom: 0;
   font-family: 'Bitter';
-  font-size: 0.6em;
+  font-size: 0.5em;
 }
 .dp{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25em;
-    border-radius: 100%;
+    width: 17em;
     padding-top:33px;
   
 }
 .about{
-  font-family: "Open Sans,sans-serif";
+  font-family: "Nunito", sans-serif;
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
-  font-size: 2.5vh;
+  font-size: 2.4vh;
   margin:0;
   border: 0;
   padding-top:40px;
@@ -342,7 +341,7 @@ a:visited {
 
 .project-without-hover {
   display: None; 
-  background-color: #FFD07F;
+  background-image: linear-gradient(#FFD07F 50%, #161c2d);;
   opacity: 0.7;
   padding: 0;
   margin:0;
@@ -358,6 +357,7 @@ a:visited {
   font-kerning: normal;
   font-feature-settings: "kern","liga","clig","calt";
   font-weight:200;
+  padding-bottom: 10vh;
 }
 
 .project-display-flex {
