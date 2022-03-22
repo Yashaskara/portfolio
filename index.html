@@ -14,13 +14,8 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <script>
-        let details = navigator.userAgent;
-        let regexp = /android|iphone|kindle|ipad/i;
-        let isMobileDevice = regexp.test(details);
-        if (isMobileDevice) {
-            
-            document.write("Mobile version under development, please open it on Dektop/laptop");
-            
+        if (screen.width < 900) {
+            document.location = "mobilepage.html";
         }
     </script>
 </head>
