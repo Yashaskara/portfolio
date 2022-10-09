@@ -1,0 +1,21 @@
+.bodyy{
+    background-color: #F3E9DD;
+}
+
+.text{
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    font-size:3em;
+    margin:0;
+
+}
+
+.dp{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 50%;
+    margin-bottom: 10%;
+
+}
